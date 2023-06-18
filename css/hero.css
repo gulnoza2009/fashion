@@ -1,0 +1,63 @@
+header{
+    background-color: #DEECEC;
+}
+.hero{
+    padding: 4.5rem 0 7rem 0;
+}
+.hero_info{
+    position: relative;
+}
+.hero_info img{
+    position: absolute;
+    right: 8rem;
+    bottom: -14rem;
+}
+h1{
+    font-family: "Outfit",sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #3A415C;
+}
+.hero_btn{
+    color: #fff;
+    padding: 1rem 3rem;
+    background: var(--span);
+    border-radius: 38px;
+    line-height: 4rem;
+    margin-top: 2.5rem;
+}
+.hero_btn:hover,.hero_btn:focus{
+    color: var(--span);
+    padding: 1rem 3rem;
+    background: #fff;
+    border-radius: 38px;
+    line-height: 4rem;
+    margin-top: 2.5rem;
+}
+
+.circle_btn{
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.circle_btn > button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #9FC1C3;
+    position: relative;
+}
+.circle_btn button:hover,.circle_btn > button:focus{
+    background-color:var(--span);
+}
+.circle_btn > button:hover::before,.circle_btn > button:focus::before{
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    top: -5px;
+    left: -5px;
+    border: 1px solid var(--span);
+}

@@ -1,0 +1,29 @@
+.women{
+    background-color: #E9E6F0;
+    position: relative;
+    width: 49%;
+    padding: 8rem 5rem;
+    height: 32.5rem;
+}
+.men{
+    background-color: #F6EBD9;
+}
+.women > h3{
+    font-family: 'Outfit',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #34394C;
+}
+.women img{
+    position: absolute;
+    bottom: 0;
+    right: -2rem;
+}
+.men img{
+    right: 4rem;
+}
+.women a{
+    text-decoration: underline;
+    color: #000;
+}

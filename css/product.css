@@ -1,0 +1,39 @@
+.product{
+    padding: 12.5rem 9rem;
+}
+.product_ul{
+    gap: 5rem;
+}
+.product_ul > li > a{
+    color: #AFB4C4;
+    font-size: 2.6rem;
+}
+.product_ul > li > a:hover{
+    color: #34394C;
+}
+.product_cards{
+    align-items: start;
+}
+.product_card .img_box{
+    padding: 0;
+    height: 33rem;
+    align-items:end;
+}
+.span_size{
+    gap: 1rem;
+}
+.span_size span{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: red;
+    border-radius: 50%;
+}
+.span_size span:first-child{
+    background-color: #BA2828;
+}
+.span_size span:nth-child(2){
+    background-color: #886652;
+}
+.span_size span:last-child{
+    background-color: #040404;
+}

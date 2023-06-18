@@ -1,0 +1,9 @@
+.category{
+    padding: 8rem 0;
+}
+.category_cards{
+    padding-top: 4rem;
+}
+.category_cards .card{
+    text-align: center;
+}

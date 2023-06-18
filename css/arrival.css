@@ -1,0 +1,57 @@
+.arrival{
+    padding-bottom: 8.8rem;
+}
+.arrival_cards{
+    margin-top: 3rem;
+}
+.arrival_cards > .card{
+    width: 25.5rem;
+}
+.arrival_cards .img_box{
+    background-color: var(--card_bg);
+    padding: 4rem 0 7rem 0;
+    justify-content: center;
+    position: relative;
+}
+.arrival_cards .img_box1::before,.img_box3::before{
+    position: absolute;
+    content: "TOP";
+    background-color: var(--span);
+    color: #fff;
+    top: 0;
+    left: 0;
+    font-family: 'Outfit',sans-serif;
+    padding: 0 7px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 1.5rem;
+}
+.arrival_cards .img_box1::after{
+    position: absolute;
+    content: "HOT";
+    background-color: #F04726;
+    color: #fff;
+    top: 0;
+    right: 0;
+    font-family: 'Outfit',sans-serif;
+    padding: 0 7px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 1.5rem;
+}
+.img_box4::before{
+    position: absolute;
+    content: "SALE";
+    background-color: var(--span);
+    color: #fff;
+    top: 0;
+    right: 0;
+    font-family: 'Outfit',sans-serif;
+    padding: 0 7px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 1.5rem;
+}

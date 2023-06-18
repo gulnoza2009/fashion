@@ -1,0 +1,54 @@
+footer{
+    padding-top: 9rem;
+    background-color: #E8EAEF;
+}
+.footer_main{
+    align-items: start;
+    padding-bottom: 3rem;
+}
+.footer_input{
+    width: 33%;
+}
+.address{
+    width: 20%;
+}
+.usful{
+    width: 11%;
+}
+.usful a{
+    display: block;
+}
+.categories{
+    width: 18%;
+}
+form{
+    display: inline-flex;
+    background-color: #fff;
+    padding: 6px 1.5rem 6px 1.5rem;
+    border-radius: 3px;
+    width: 30rem;
+    height: 4rem;
+    margin: 2.4rem 0;
+}
+form > input{
+    border: none;
+}
+.link{
+    justify-content: start;
+    gap: 2rem;
+}
+.address .flex{
+    gap: 1.3rem;
+    justify-content: start;
+    margin-bottom: 1.5rem;
+}
+.usful > a{
+    margin-bottom: 1rem;
+}
+.cate1 > p{
+    margin-bottom: 1rem;
+}
+.foot_foot{
+    border-top: 1px solid rgba(204, 210, 222, 0.81);
+    padding: 1.5rem 0;
+}
